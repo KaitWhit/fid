@@ -1,0 +1,59 @@
+body {
+  color: #F2DFBB;
+  background-color: #282828;
+  margin: 0 10%;
+  font-family: sans-serif;
+  }
+  h1 {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 30px;
+  }
+  h2{
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    list-style: none;
+  }
+  img{
+    padding:2%;
+    vertical-align: top;
+  }
+  a:link, a:visited{
+    text-decoration: none;
+    color: #F2DFBB;
+  }
+  a:hover{
+    color:#F23A29;
+  }
+  nav{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+  }
+.navlinks{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.left-half {
+  padding-left: 2%;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  width: 18%;
+  }
+
+.right-half {
+  position: absolute;
+  right: 0px;
+  width: 78%;
+  margin-left: 2%;
+  }
+.about{
+  padding:30px;
+  }
