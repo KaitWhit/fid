@@ -1,17 +1,19 @@
 
 body {
-  font-family: sans-serif;
+  font-family: Georgia, serif;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
   /*background-image:url(images/bullseye.png);
   background-position: center top;*/
-  background: #faf2e4; url(images/blackgoosebackground.png) no-repeat center 100px fixed;
+  background: #d2dc9d url(images/blackgoosebackground.png) no-repeat center 100px fixed;
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
+  background: url(images/purpledot.png) left top repeat-y, url(images/purpledot.png) right top repeat-y,
+  url(images/goose_shadow.png) 90% bottom no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -20,7 +22,9 @@ a {
 }
 
 h1 {
-  font-family: 'Vibes', cursive; font-size: 60px;
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  color:#993399;
 }
 h2 {
   font-size: 1em;
